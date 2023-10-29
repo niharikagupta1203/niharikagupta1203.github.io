@@ -2,6 +2,48 @@
 <html lang="en">
     <head>
         <style>
+             /* Style for the dropdown menu */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the dropdown button */
+        .dropdown-button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Style for the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Style for the individual links in the dropdown */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change link color on hover */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Show the dropdown content when the button is hovered */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
             body{
                 background-image:url('https://wallpapers.com/images/hd/4k-tech-fi904sfb2h6pmfhs.jpg');
                 background-repeat:no-repeat;
@@ -17,6 +59,14 @@
         
     </head>
     <body>
+         <div class="dropdown">
+        <button class="dropdown-button">Registration Number</button>
+        <div class="dropdown-content">
+            <a href="https://github.com/niharikagupta1203/niharikagupta1203.github.io/blob/main/22BCB0159.html">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+    </div>
         
         <h1 style="color:aliceblue" align ="center"> WELCOME!! </h1>
         <h1 style="color:aliceblue" align ="center"> A SIMPLIER WAY TO SOLVE KMAPs </h1>
@@ -25,17 +75,6 @@
         <h2 style="color:aliceblue"> Enter your Registration number:</h2>
 
 
-        <select name="links" id="" size="1" onchange="window.location.href=this.value;">
-            
-            
-        <option value="">Select Registration Number</option>
-            <a href="https://github.com/niharikagupta1203/niharikagupta1203.github.io/blob/main/22BCB0159.html">22BCB0159</a>
-            <option value="file:///C:/Users/Lenovo/Desktop/xyz/22BCE0002.html">22BCE0002</option>
-            <option value="file:///C:/Users/Lenovo/Desktop/xyz/22BCE0043.html">22BCE0043</option>
-            <option value="file:///C:/Users/Lenovo/Desktop/xyz/22BCE3387.html">22BCE3387</option>
-            <option value="file:///C:/Users/Lenovo/Desktop/xyz/22BCT0220.html">22BCT0220</option>
-
-            </select>
         
 
 
